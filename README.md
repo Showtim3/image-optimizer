@@ -7,7 +7,7 @@ So after resizing a lot of images online and then changing their format to .webp
 And Hence i wrote a script in nodeJs using `Sharp` and fs which :
 
 1. Takes images as input,
-2. Resizes them to 200*200 which you can change as per your needs,
+2. Resizes them to 250*250 which you can change as per your needs,
 3. Changes their format to .webP from jpg, jpeg, png etc
 4. Generate optimized images. Tada!
 
