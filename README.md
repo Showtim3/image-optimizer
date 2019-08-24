@@ -28,6 +28,6 @@ Prerequisites: Nodejs and run `npm install` to install all the dependencies.
 it shall be created automatically.Thereby reducing user efforts and making this script easier to use.
 
 2. Suppose the original image is a.jpg then in the transform directory, the optimized output image will be a.jpg.webp which 
-can be made better by using some string manipulation on the `originalName Array`.
+can be made better by using some string manipulation on the `originalName Array`. @senseihimanshu Thanks :D (This issue has been solved)
 
 Pull Requests are welcome.
