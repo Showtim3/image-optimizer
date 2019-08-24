@@ -18,7 +18,8 @@ async function transformImage() {
                 .toBuffer()
                 .then((data) => {
                     let target = `/transform/`;
-                    fs.writeFile(__dirname+target+`${fileNameArray[file]}.webp`, data, 'binary', function (err) {
+                    let modFileName = fileNameArray[file].split(".")[0];
+                    fs.writeFile(__dirname+target+`${modFileName}.webp`, data, 'binary', function (err) {
                         if (err) throw err;
                     })
                 });
